@@ -1,0 +1,11 @@
+#initializing a repository on GitHub
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:somkar2307/SpringBootProject1.git
+git remote set-url origin https://somkar2307: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@github.com/somkar2307/SpringBootProject1.git
+
+#After initializing
+git push --set-upstream origin master
+
